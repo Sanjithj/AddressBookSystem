@@ -45,7 +45,7 @@ public class AddressBookMain {
 			phone_number=sc.nextInt();
 			System.out.println("enter the email");
 			email=sc.next();
-			
+			System.out.println("delete the Name");
 			
 			AddressBookMain address =new AddressBookMain(first_name,last_name,Address,city,state,phone_number,email, zip); 
 			System.out.println("Name : "+AddressBookMain.first_name+" "+AddressBookMain.last_name+"\nAddress: "+AddressBookMain.Address+".\n city :"+AddressBookMain.city+"\n state"+AddressBookMain.state+"\n phone number:"+AddressBookMain.phone_number+"\n email"+AddressBookMain.email);
